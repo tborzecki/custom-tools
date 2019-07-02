@@ -2,12 +2,12 @@
 
 ## Usage Instructions
 
-###Quick Launch
+### Quick Launch
 
 Double-click the script in Mac OS.  This will open "Script Editor" by default.  You can modify the script,
 specifically the values of the various variables as needed.  To launch click the "play" button to run the script.
 
-###Long Term Usage
+### Long Term Usage
 
 Double-click the script in Mac OS and open "Script Editor", then:
 1) Click File -> Duplicate.
