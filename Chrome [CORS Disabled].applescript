@@ -10,4 +10,4 @@ set debuggingURL to " \"http://localhost:4200\""
 set debuggingPort to 9222
 
 -- The full command that launches Chrome with the above options 
-set chromeInstance to do shell script chrome & " --user-data-dir=" & debuggingDataDir & " --remote-debugging-port=" & debuggingPort & debuggingURL & " > /dev/null 2>&1 &"
+set chromeInstance to do shell script chrome & " --user-data-dir=" & debuggingDataDir & " --disable-web-security " & " --remote-debugging-port=" & debuggingPort & debuggingURL & " > /dev/null 2>&1 &"
